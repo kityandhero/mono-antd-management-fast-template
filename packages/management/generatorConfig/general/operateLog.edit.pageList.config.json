@@ -1,0 +1,10 @@
+{
+  "list": [
+    {
+      "folder": "Simple/Edit/OperateLog/PageList",
+      "model": "simple",
+      "key": "simpleId",
+      "coverFile": true
+    }
+  ]
+}

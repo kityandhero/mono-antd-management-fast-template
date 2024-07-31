@@ -1,2 +1,3 @@
-# mono-antd-management-fast-template
-mono-antd-management-fast-template
+# lerna-antd-management-fast-template
+
+master management system template

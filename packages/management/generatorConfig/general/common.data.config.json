@@ -1,0 +1,11 @@
+{
+  "list": [
+    {
+      "folder": "Simple/Common",
+      "model": "simple",
+      "key": "simple",
+      "fileName": "data.js",
+      "coverFile": false
+    }
+  ]
+}

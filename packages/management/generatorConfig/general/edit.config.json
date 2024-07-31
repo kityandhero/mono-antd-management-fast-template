@@ -1,0 +1,12 @@
+{
+  "list": [
+    {
+      "folder": "Simple/Edit",
+      "name": "Simple",
+      "model": "simple",
+      "key": "simpleId",
+      "fileName": "index.jsx",
+      "coverFile": false
+    }
+  ]
+}

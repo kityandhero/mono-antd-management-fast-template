@@ -1,0 +1,185 @@
+{
+  "repository": "https://codeload.github.com/kityandhero/mono-antd-management-fast-template/zip/refs/heads/main",
+  "sourcePath": "mono-antd-management-fast-template-main/packages/management/",
+  "targetPath": "packages/management/",
+  "syncFolders": [
+    // generatorTemplate start
+    "generatorTemplate/",
+    // generatorTemplate end
+    // src start
+    // src customConfig start
+    "src/customConfig/general/fieldDataCollection/",
+    // src customConfig end
+    // src customSpecialComponents start
+    "src/customSpecialComponents/BaseUpdateRoleModal/",
+    "src/customSpecialComponents/UpdateModuleModalBase/",
+    "src/customSpecialComponents/DataTabContainerSupplement/",
+    // src customSpecialComponents end
+    // src pageBases start
+    "src/pageBases/",
+    // src pageBases end
+    // src pages start
+    "src/pages/CurrentAccount/MenuPageBase/",
+    "src/pages/OperationLog/"
+    // src pages end
+    // src end
+  ],
+  "syncFiles": [
+    // develop start
+    "../../develop/config/develop.update.project.from.repository.json",
+    // develop end
+    "plugin.ts",
+    // src start
+    "src/access.js",
+    "src/app.jsx",
+    // src customConfig start
+    "src/customConfig/accessWayCollection.js",
+    "src/customConfig/general/constants.js",
+    "src/customConfig/general/index.js",
+    "src/customConfig/index.js",
+    // src customConfig end
+    // src customSpecialComponents start
+    "src/customSpecialComponents/CustomAssembly/menuHeader.js",
+    "src/customSpecialComponents/CustomAssembly/timeAndOperator.js",
+    // src customSpecialComponents end
+    // src localeConfig start
+    "src/localeConfig/custom/index.js",
+    "src/localeConfig/general/index.js",
+    "src/localeConfig/general/zh-CN/index.js",
+    "src/localeConfig/index.js",
+    // src localeConfig end
+    // src locales start
+    "src/locales/zh-CN/menu.js",
+    // src locales end
+    // src modelBuilders start
+    "src/modelBuilders/index.js",
+    // src modelBuilders end
+    // src utils start
+    "src/utils/init.js",
+    "src/utils/tools.general.jsx",
+    // src utils end
+    // src end
+    "tsconfig.json"
+  ],
+  "ignoreSyncWhenExistFiles": [
+    // develop start
+    "../../develop/config/develop.initial.environment.json",
+    "../../develop/config/develop.subPath.version.ncu.json",
+    // develop end
+    // config start
+    "config/config.development.js",
+    "config/config.js",
+    "config/config.production.js",
+    "config/extraScript.development.js",
+    "config/extraScript.js",
+    "config/extraScript.production.js",
+    "config/router.config.js",
+    "config/router.master.custom.config.js",
+    "config/router.master.general.config.js",
+    "config/theme.config.json",
+    // config end
+    "generatorConfig/code.json",
+    // generatorConfig custom start
+    "generatorConfig/custom/addBasicInfoDrawer.config.json",
+    "generatorConfig/custom/assist.action.config.json",
+    "generatorConfig/custom/assist.config.config.json",
+    "generatorConfig/custom/changeSortModal.config.json",
+    "generatorConfig/custom/common.data.config.json",
+    "generatorConfig/custom/edit.basicInfo.config.json",
+    "generatorConfig/custom/edit.config.json",
+    "generatorConfig/custom/function.data.json",
+    "generatorConfig/custom/model.json",
+    "generatorConfig/custom/operateLog.drawer.config.json",
+    "generatorConfig/custom/operateLog.edit.pageList.config.json",
+    "generatorConfig/custom/pageList.config.json",
+    "generatorConfig/custom/tabPageBase.config.json",
+    "generatorConfig/custom/updateBasicInfoDrawer.config.json",
+    // generatorConfig custom end
+    // generatorConfig general start
+    "generatorConfig/general/addBasicInfoDrawer.config.json",
+    "generatorConfig/general/assist.action.config.json",
+    "generatorConfig/general/assist.config.config.json",
+    "generatorConfig/general/changeSortModal.config.json",
+    "generatorConfig/general/common.data.config.json",
+    "generatorConfig/general/edit.basicInfo.config.json",
+    "generatorConfig/general/edit.config.json",
+    "generatorConfig/general/function.data.json",
+    "generatorConfig/general/model.json",
+    "generatorConfig/general/operateLog.drawer.config.json",
+    "generatorConfig/general/operateLog.edit.pageList.config.json",
+    "generatorConfig/general/pageList.config.json",
+    "generatorConfig/general/tabPageBase.config.json",
+    "generatorConfig/general/updateBasicInfoDrawer.config.json",
+    // generatorConfig general end
+    // src start
+    "src/app.config.jsx",
+    // src commonAssist start
+    "src/commonAssist/Action/actionGeneral.js",
+    "src/commonAssist/Action/index.js",
+    "src/commonAssist/index.js",
+    // src commonAssist end
+    // src components start
+    "src/components/MenuCard/index.jsx",
+    "src/components/PageLoading/index.jsx",
+    "src/components/index.jsx",
+    // src components end
+    // src customConfig start
+    "src/customConfig/constants.js",
+    "src/customConfig/custom/accessWayCollection.js",
+    "src/customConfig/general/accessWayCollection.js",
+    // src customConfig end
+    // src customSpecialComponents start
+    "src/customSpecialComponents/CustomAssembly/footer.js",
+    "src/customSpecialComponents/CustomAssembly/index.js",
+    "src/customSpecialComponents/index.jsx",
+    // src customSpecialComponents end
+    "src/global.less",
+    // src localeConfig start
+    "src/localeConfig/custom/index.js",
+    "src/localeConfig/custom/zh-CN/index.js",
+    "src/localeConfig/custom/zh-CN/menu.js",
+    "src/localeConfig/custom/zh-CN/menu.js",
+    "src/localeConfig/general/zh-CN/menu.js",
+    // src localeConfig end
+    // src locales start
+    "src/locales/en-CN.js",
+    "src/locales/en-CN/component.js",
+    "src/locales/en-CN/globalHeader.js",
+    "src/locales/en-CN/menu.js",
+    "src/locales/en-CN/settingDrawer.js",
+    "src/locales/en-CN/settings.js",
+    "src/locales/zh-CN.js",
+    "src/locales/zh-CN/component.js",
+    "src/locales/zh-CN/globalHeader.js",
+    "src/locales/zh-CN/settingDrawer.js",
+    "src/locales/zh-CN/settings.js",
+    // src locales end
+    "src/overrides.less",
+    // src pages start
+    "src/pages/CurrentAccount/Common/data.js",
+    "src/pages/CurrentAccount/LoginLog/PageList/index.jsx",
+    "src/pages/CurrentAccount/Setting/BasicInfo/index.jsx",
+    "src/pages/CurrentAccount/Setting/Password/index.jsx",
+    "src/pages/CurrentAccount/Setting/index.jsx",
+    "src/pages/Entrance/index.jsx",
+    "src/pages/Entrance/SignIn/index.jsx",
+    "src/pages/Entrance/Wrapper/index.jsx",
+    "src/pages/Result/Forbidden/index.jsx",
+    "src/pages/Result/Info/index.jsx",
+    "src/pages/Result/LocalError/index.jsx",
+    "src/pages/Result/NotFound/index.jsx",
+    "src/pages/Result/ServerError/index.jsx",
+    "src/pages/Result/Success/index.jsx",
+    "src/pages/Result/Warn/index.jsx",
+    "src/pages/Workbench/PageHeaderContent/index.jsx",
+    "src/pages/Workbench/ShortcutPanel/index.jsx",
+    "src/pages/Workbench/index.jsx",
+    // src pages end
+    // src utils start
+    "src/utils/index.jsx",
+    "src/utils/theme.js",
+    "src/utils/tools.custom.jsx"
+    // src utils end
+    // src end
+  ]
+}

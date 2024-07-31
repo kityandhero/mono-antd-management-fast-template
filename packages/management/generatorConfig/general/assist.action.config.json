@@ -1,0 +1,11 @@
+{
+  "list": [
+    {
+      "folder": "Simple/Assist",
+      "model": "simple",
+      "key": "simpleId",
+      "fileName": "action.js",
+      "coverFile": false
+    }
+  ]
+}

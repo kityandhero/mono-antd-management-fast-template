@@ -1,0 +1,11 @@
+{
+  "list": [
+    {
+      "folder": "Simple/PageList",
+      "model": "simple",
+      "key": "simpleId",
+      "fileName": "index.jsx",
+      "coverFile": false
+    }
+  ]
+}

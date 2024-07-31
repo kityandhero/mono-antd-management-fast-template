@@ -1,0 +1,11 @@
+{
+  "list": [
+    {
+      "folder": "Simple/TabPageBase",
+      "model": "simple",
+      "key": "simpleId",
+      "fileName": "index.jsx",
+      "coverFile": true
+    }
+  ]
+}

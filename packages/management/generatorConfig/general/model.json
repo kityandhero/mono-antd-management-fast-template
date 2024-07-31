@@ -1,0 +1,88 @@
+{
+  "list": [
+    {
+      "apis": [
+        {
+          "title": "示例分页列表",
+          "api": "/simple/pageList",
+          "effect": "pageList",
+          "service": "pageListData",
+          "type": "pageList"
+        },
+        {
+          "title": "示例单页列表",
+          "api": "/simple/singleList",
+          "effect": "singleList",
+          "service": "singleListData",
+          "type": "singleList"
+        },
+        {
+          "title": "操作日志列表",
+          "api": "/simple/pageListLog",
+          "effect": "pageListLog",
+          "service": "pageListLogData",
+          "type": "pageList"
+        },
+        {
+          "title": "示例详情",
+          "api": "/simple/get",
+          "effect": "get",
+          "service": "getData",
+          "type": "singleData"
+        },
+        {
+          "title": "新增示例",
+          "api": "/simple/addBasicInfo",
+          "effect": "addBasicInfo",
+          "service": "addBasicInfoData",
+          "type": "singleData"
+        },
+        {
+          "title": "更新信息",
+          "api": "/simple/updateBasicInfo",
+          "effect": "updateBasicInfo",
+          "service": "updateBasicInfoData",
+          "type": "singleData"
+        },
+        {
+          "title": "设为开始",
+          "api": "/simple/setEnable",
+          "effect": "setEnable",
+          "service": "setEnableData",
+          "type": "singleData"
+        },
+        {
+          "title": "设为停止",
+          "api": "/simple/setDisable",
+          "effect": "setDisable",
+          "service": "setDisableData",
+          "type": "singleData"
+        },
+        {
+          "title": "刷新缓存",
+          "api": "/simple/refreshCache",
+          "effect": "refreshCache",
+          "service": "refreshCacheData",
+          "type": "singleData"
+        },
+        {
+          "title": "上传图片文件",
+          "api": "/simple/uploadImage",
+          "effect": "uploadImage",
+          "service": "uploadImageData",
+          "type": "singleData"
+        },
+        {
+          "title": "操作日志列表",
+          "api": "/simple/pageListOperateLog",
+          "effect": "pageListOperateLog",
+          "service": "pageListOperateLogData",
+          "type": "pageList"
+        }
+      ],
+      "cover": true,
+      "title": "示例",
+      "name": "simple"
+    }
+  ]
+}

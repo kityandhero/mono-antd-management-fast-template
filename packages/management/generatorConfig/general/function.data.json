@@ -1,0 +1,9 @@
+{
+  "list": [
+    {
+      "functionSegment": "SimpleStatus",
+      "label": "状态",
+      "name": "status"
+    }
+  ]
+}
