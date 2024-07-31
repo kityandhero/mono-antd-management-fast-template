@@ -1,8 +1,7 @@
-
 import {
   getTacitlyState,
-  pretreatmentRemotePageListData,
   pretreatmentRemoteListData,
+  pretreatmentRemotePageListData,
   pretreatmentRemoteSingleData,
   reducerCollection,
   reducerDefaultParameters,
@@ -10,17 +9,17 @@ import {
 } from 'easy-soft-utility';
 
 import {
-  pageListData,
-  singleListData,
-  pageListLogData,
-  getData,
   addBasicInfoData,
-  updateBasicInfoData,
-  setEnableData,
-  setDisableData,
-  refreshCacheData,
-  uploadImageData,
+  getData,
+  pageListData,
+  pageListLogData,
   pageListOperateLogData,
+  refreshCacheData,
+  setDisableData,
+  setEnableData,
+  singleListData,
+  updateBasicInfoData,
+  uploadImageData,
 } from '../../services/simple';
 
 export function buildModel() {

@@ -1,4 +1,3 @@
-
 import { request } from 'easy-soft-utility';
 
 export const pageListDataApiAddress = '/simple/pageList';
@@ -99,4 +98,3 @@ export async function pageListOperateLogData(parameters) {
     params: parameters,
   });
 }
-
