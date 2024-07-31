@@ -1,3 +1,9 @@
 {
-  "list": []
+  "list": [
+    {
+      "functionSegment": "ExampleStatus",
+      "label": "状态",
+      "name": "status"
+    }
+  ]
 }
