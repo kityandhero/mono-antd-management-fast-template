@@ -13,7 +13,6 @@
     "src/pages/OperationLog/"
   ],
   "syncFiles": [
-    "../../develop/config/develop.update.project.from.repository.json",
     "plugin.ts",
     "src/access.js",
     "src/app.jsx",
@@ -31,8 +30,7 @@
     "src/modelBuilders/index.js",
     "src/utils/init.js",
     "src/utils/tools.general.jsx",
-    "tsconfig.json",
-    "plugin.ts"
+    "update.project.from.template.repository.config.json"
   ],
   "ignoreSyncWhenExistFiles": [
     "../../develop/config/develop.initial.environment.json",
