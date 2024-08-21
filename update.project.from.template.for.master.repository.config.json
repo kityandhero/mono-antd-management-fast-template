@@ -26,7 +26,6 @@
     "src/locales/zh-CN/menu.js",
     "src/modelBuilders/index.js",
     "src/utils/init.js",
-    "src/utils/tools.general.jsx",
     "tsconfig.json"
   ],
   "ignoreSyncWhenExistFiles": [
@@ -127,6 +126,7 @@
     "src/pages/Workbench/index.jsx",
     "src/utils/index.jsx",
     "src/utils/theme.js",
-    "src/utils/tools.custom.jsx"
+    "src/utils/tools.custom.jsx",
+    "src/utils/tools.general.jsx"
   ]
 }
