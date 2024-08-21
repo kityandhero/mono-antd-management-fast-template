@@ -22,6 +22,20 @@ import {
   uploadImageData,
 } from '../../services/simple';
 
+export const simpleTypeCollection = {
+  pageList: 'simple/pageList',
+  singleList: 'simple/singleList',
+  pageListLog: 'simple/pageListLog',
+  get: 'simple/get',
+  addBasicInfo: 'simple/addBasicInfo',
+  updateBasicInfo: 'simple/updateBasicInfo',
+  setEnable: 'simple/setEnable',
+  setDisable: 'simple/setDisable',
+  refreshCache: 'simple/refreshCache',
+  uploadImage: 'simple/uploadImage',
+  pageListOperateLog: 'simple/pageListOperateLog',
+};
+
 export function buildModel() {
   return {
     namespace: 'simple',

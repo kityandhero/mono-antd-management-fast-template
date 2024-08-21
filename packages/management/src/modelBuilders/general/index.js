@@ -1,5 +1,13 @@
-import { buildModel as buildCurrentAccountModel } from './currentAccount';
-import { buildModel as buildSimpleModel } from './simple';
+import {
+  buildModel as buildCurrentAccountModel,
+  currentAccountTypeCollection,
+} from './currentAccount';
+import { buildModel as buildSimpleModel, simpleTypeCollection } from './simple';
+
+export const modelTypeCollection = {
+  simpleTypeCollection,
+  currentAccountTypeCollection,
+};
 
 export function listModelBuilder() {
   const list = [];
