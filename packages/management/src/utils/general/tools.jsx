@@ -9,6 +9,8 @@ import {
   datetimeFormat,
   formatDatetime,
   getValueByKey,
+  isArray,
+  isEmptyArray,
   isEmptyObject,
   isNull,
 } from 'easy-soft-utility';
@@ -309,4 +311,20 @@ export function splitToGroup(array, size) {
   }
 
   return result;
+}
+
+export function buildFormInitialValues(listFormStorage) {
+  const data = {};
+
+  if (isArray(listFormStorage) && !isEmptyArray(listFormStorage)) {
+    for (const o of listFormStorage) {
+      try {
+        data[o.name] = JSON.parse(o.value);
+      } catch {
+        data[o.name] = o.value;
+      }
+    }
+  }
+
+  return data;
 }

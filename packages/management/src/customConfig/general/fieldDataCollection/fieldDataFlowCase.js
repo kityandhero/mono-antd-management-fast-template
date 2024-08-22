@@ -2,8 +2,28 @@ import { formNameCollection } from './fieldDataCommon';
 
 const fieldExtraData = {
   listFormStorage: {
-    label: '表单数据',
+    label: '表单数据列表',
     name: 'listFormStorage',
+    helper: '',
+  },
+  listChainAll: {
+    label: '所有过程链条集合',
+    name: 'listChainAll',
+    helper: '',
+  },
+  treeChainAll: {
+    label: '所有过程链条树',
+    name: 'treeChainAll',
+    helper: '',
+  },
+  listChainApprove: {
+    label: '所有审批链条集合',
+    name: 'listChainApprove',
+    helper: '',
+  },
+  treeChainApprove: {
+    label: '所有审批链条树',
+    name: 'treeChainApprove',
     helper: '',
   },
   canEdit: {
@@ -96,6 +116,21 @@ const fieldExtraData = {
     name: 'workflowChannel',
     helper: '',
   },
+  workflowFormDesign: {
+    label: '表单设计',
+    name: 'workflowFormDesign',
+    helper: '',
+  },
+  listProcessHistory: {
+    label: '审批历史列表',
+    name: 'listProcessHistory',
+    helper: '',
+  },
+  listAttachment: {
+    label: '附件列表',
+    name: 'listAttachment',
+    helper: '',
+  },
 };
 
 export const fieldDataFlowCase = {
@@ -114,6 +149,11 @@ export const fieldDataFlowCase = {
     label: '简介描述 ',
     name: 'description',
     helper: '',
+  },
+  caseNameTemplate: {
+    label: '实例名模版 ',
+    name: 'caseNameTemplate',
+    helper: '设置实例名模板, 示例: {flowName} 事由{reason}',
   },
   workflowName: {
     label: '流程名称',
