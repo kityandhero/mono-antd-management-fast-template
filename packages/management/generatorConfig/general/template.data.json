@@ -1,0 +1,31 @@
+{
+  "mainFolder": "general",
+  "list": [
+    {
+      "folder": "Simple",
+      "model": "simple",
+      "key": "simpleId",
+      "action": false,
+      "config": false,
+      "tools": false,
+      "data": false,
+      "addBasicInfoDrawer": false,
+      "changeImageModal": false,
+      "changeSortModal": false,
+      "tabPageBase": false,
+      "edit": false,
+      "basicInfo": false,
+      "operateLogDrawer": false,
+      "operateLogInnerPageList": false,
+      "pageList": false,
+      "pageListDrawer": false,
+      "baseInnerPageList": false,
+      "pageListSelectDrawer": false,
+      "pageListSelectModal": false,
+      "pageListSelectActionDrawer": false,
+      "selectDrawerField": false,
+      "selectModalField": false,
+      "updateBasicInfoDrawer": false
+    }
+  ]
+}
