@@ -13,7 +13,7 @@ import {
   DataPreviewDrawer,
 } from 'antd-management-fast-framework';
 
-import { getChannelName } from '../../../customSpecialComponents';
+import { getChannelName } from '../../../../customSpecialComponents';
 import { fieldData } from '../Common/data';
 
 const { MultiPageSelectDrawer } = DataMultiPageView;

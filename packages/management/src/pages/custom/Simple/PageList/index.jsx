@@ -14,7 +14,7 @@ import {
 import { iconBuilder } from 'antd-management-fast-component';
 import { DataMultiPageView } from 'antd-management-fast-framework';
 
-import { accessWayCollection } from '../../../customConfig';
+import { accessWayCollection } from '../../../../customConfig';
 import { AddBasicInfoDrawer } from '../AddBasicInfoDrawer';
 import { refreshCacheAction } from '../Assist/action';
 import { fieldData } from '../Common/data';

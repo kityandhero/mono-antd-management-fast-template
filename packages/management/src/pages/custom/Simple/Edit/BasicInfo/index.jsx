@@ -7,8 +7,8 @@ import {
 } from 'antd-management-fast-common';
 import { iconBuilder } from 'antd-management-fast-component';
 
-import { accessWayCollection } from '../../../../customConfig';
-import { buildUpdateTimeAndOperatorFieldItem } from '../../../../customSpecialComponents';
+import { accessWayCollection } from '../../../../../customConfig';
+import { buildUpdateTimeAndOperatorFieldItem } from '../../../../../customSpecialComponents';
 import { parseUrlParametersForSetState } from '../../Assist/config';
 import { fieldData } from '../../Common/data';
 import { TabPageBase } from '../../TabPageBase';

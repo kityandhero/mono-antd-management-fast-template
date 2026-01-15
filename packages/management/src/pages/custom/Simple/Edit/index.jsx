@@ -9,12 +9,12 @@ import {
 import { getDerivedStateFromPropertiesForUrlParameters } from 'antd-management-fast-common';
 import { iconBuilder } from 'antd-management-fast-component';
 
-import { accessWayCollection } from '../../../customConfig';
+import { accessWayCollection } from '../../../../customConfig';
 import {
   DataTabContainerSupplement,
   getChannelName,
   getSimpleStatusName,
-} from '../../../customSpecialComponents';
+} from '../../../../customSpecialComponents';
 import {
   refreshCacheAction,
   setOfflineAction,

@@ -1,12 +1,15 @@
-import React from 'react';
-
-import { getValueByKey, toNumber } from 'easy-soft-utility';
-
+import { connect } from 'easy-soft-dva';
 import {
   buildRandomHexColor,
+  getValueByKey,
+  toNumber,
+} from 'easy-soft-utility';
+
+import {
   cardConfig,
   columnFacadeMode,
   dataTypeCollection,
+  searchCardConfig,
 } from 'antd-management-fast-common';
 import { iconBuilder } from 'antd-management-fast-component';
 import {
@@ -14,19 +17,28 @@ import {
   DataPreviewDrawer,
 } from 'antd-management-fast-framework';
 
-import { getChannelName } from '../../../customSpecialComponents';
+import { accessWayCollection } from '../../../../customConfig';
+import { getChannelName } from '../../../../customSpecialComponents';
 import { fieldData } from '../Common/data';
 
-const { InnerMultiPage } = DataMultiPageView;
+const { MultiPage } = DataMultiPageView;
 
-class BaseInnerPageList extends InnerMultiPage {
+@connect(({ operationLog, schedulingControl }) => ({
+  operationLog,
+  schedulingControl,
+}))
+class PageList extends MultiPage {
+  componentAuthority = accessWayCollection.operationLog.pageList.permission;
+
   constructor(properties) {
     super(properties);
 
     this.state = {
       ...this.state,
-      pageTitle: '日志列表',
-      currentRecord: null,
+      pageTitle: '操作日志列表',
+      paramsKey: accessWayCollection.operationLog.pageList.paramsKey,
+      loadApiPath: 'operationLog/pageList',
+      dateRangeFieldName: '创建时间',
     };
   }
 
@@ -34,6 +46,33 @@ class BaseInnerPageList extends InnerMultiPage {
     this.setState({ currentRecord: data }, () => {
       DataPreviewDrawer.open();
     });
+  };
+
+  establishSearchCardConfig = () => {
+    return {
+      list: [
+        {
+          lg: 5,
+          type: searchCardConfig.contentItemType.input,
+          fieldData: fieldData.title,
+        },
+        {
+          lg: 5,
+          type: searchCardConfig.contentItemType.input,
+          fieldData: fieldData.tableName,
+        },
+        {
+          lg: 5,
+          type: searchCardConfig.contentItemType.inputNumber,
+          fieldData: fieldData.primaryKeyValue,
+        },
+        {
+          lg: 5,
+          type: searchCardConfig.contentItemType.component,
+          component: this.buildSearchCardButtonCore(),
+        },
+      ],
+    };
   };
 
   establishListItemDropdownConfig = (record) => {
@@ -71,6 +110,12 @@ class BaseInnerPageList extends InnerMultiPage {
       emptyValue: '--',
     },
     {
+      dataTarget: fieldData.operatorId,
+      width: 120,
+      showRichFacade: true,
+      canCopy: true,
+    },
+    {
       dataTarget: fieldData.primaryKeyValue,
       width: 120,
       showRichFacade: true,
@@ -93,12 +138,6 @@ class BaseInnerPageList extends InnerMultiPage {
           value: value,
         });
       },
-    },
-    {
-      dataTarget: fieldData.operationLogId,
-      width: 120,
-      showRichFacade: true,
-      canCopy: true,
     },
     {
       dataTarget: fieldData.createTime,
@@ -185,4 +224,4 @@ class BaseInnerPageList extends InnerMultiPage {
   };
 }
 
-export default BaseInnerPageList;
+export default PageList;

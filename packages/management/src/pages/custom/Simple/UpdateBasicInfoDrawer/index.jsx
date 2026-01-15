@@ -8,7 +8,7 @@ import {
   switchControlAssist,
 } from 'antd-management-fast-framework';
 
-import { buildUpdateTimeAndOperatorFieldItem } from '../../../customSpecialComponents';
+import { buildUpdateTimeAndOperatorFieldItem } from '../../../../customSpecialComponents';
 import { fieldData } from '../Common/data';
 
 const { BaseUpdateDrawer } = DataDrawer;

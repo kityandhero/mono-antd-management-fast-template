@@ -7,8 +7,8 @@ import {
   switchControlAssist,
 } from 'antd-management-fast-framework';
 
-import { accessWayCollection } from '../../../customConfig';
-import { buildNowTimeFieldItem } from '../../../customSpecialComponents';
+import { accessWayCollection } from '../../../../customConfig';
+import { buildNowTimeFieldItem } from '../../../../customSpecialComponents';
 import { fieldData } from '../Common/data';
 
 const { BaseAddDrawer } = DataDrawer;
