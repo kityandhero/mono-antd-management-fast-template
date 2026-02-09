@@ -7,7 +7,7 @@ export const entrance = {
     { path: '/entrance', redirect: '/entrance/signIn' },
     {
       path: '/entrance/signIn',
-      component: './Entrance',
+      component: './general/Entrance',
     },
   ],
 };
@@ -26,7 +26,7 @@ export const currentAccount = {
       icon: 'bars',
       hideChildrenInMenu: true,
       path: '/currentAccount/setting',
-      component: './CurrentAccount/Setting',
+      component: './general/CurrentAccount/Setting',
       routes: [
         {
           path: '/currentAccount/setting',
@@ -34,11 +34,11 @@ export const currentAccount = {
         },
         {
           path: '/currentAccount/setting/:op/basicInfo',
-          component: './CurrentAccount/Setting/BasicInfo',
+          component: './general/CurrentAccount/Setting/BasicInfo',
         },
         {
           path: '/currentAccount/setting/:op/password',
-          component: './CurrentAccount/Setting/Password',
+          component: './general/CurrentAccount/Setting/Password',
         },
       ],
     },
@@ -61,7 +61,7 @@ export const currentAccount = {
         {
           path: '/currentAccount/loginLog/pageList/:pageKey',
           hideInMenu: true,
-          component: './CurrentAccount/LoginLog/PageList',
+          component: './general/CurrentAccount/LoginLog/PageList',
         },
       ],
     },
@@ -81,39 +81,39 @@ export const result = {
     {
       path: '/result/forbidden',
       name: 'forbidden',
-      component: './Result/Forbidden',
+      component: './general/Result/Forbidden',
     },
     {
       path: '/result/serverError',
       name: 'serverError',
-      component: './Result/ServerError',
+      component: './general/Result/ServerError',
     },
     {
       path: '/result/localError',
       name: 'localError',
-      component: './Result/LocalError',
+      component: './general/Result/LocalError',
     },
     {
       path: '/result/success',
       name: 'success',
-      component: './Result/Success',
+      component: './general/Result/Success',
     },
     {
       path: '/result/info',
       name: 'info',
-      component: './Result/Info',
+      component: './general/Result/Info',
     },
     {
       path: '/result/warn',
       name: 'warn',
-      component: './Result/Warn',
+      component: './general/Result/Warn',
     },
     {
       path: '/result/notFound',
       name: 'notFound',
-      component: './Result/NotFound',
+      component: './general/Result/NotFound',
     },
   ],
 };
 
-export const notFound = { path: '/*', component: './Result/NotFound' };
+export const notFound = { path: '/*', component: './general/Result/NotFound' };
