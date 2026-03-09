@@ -28,7 +28,7 @@ import { fieldData } from '../Common/data';
 const { MultiPageDrawer } = DataMultiPageView;
 
 // 显隐控制标记, 必须设置, 标记需要全局唯一
-const visibleFlag = 'e15ab81555a943dabdd00e7d22702cca';
+const visibleFlag = '<%= o.visibleFlag %>';
 
 @connect(({ <%= o.model%>, schedulingControl }) => ({
   <%= o.model%>,
