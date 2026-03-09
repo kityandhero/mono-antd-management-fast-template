@@ -33,9 +33,10 @@ export function handleItemStatus({ target, handleData, remoteData }) {
     target,
     value: id,
     compareValueHandler: (o) => {
-      const { id: v } = o;
-
-      return v;
+      return getValueByKey({
+        data: o,
+        key: fieldData.<%= o.key %>.name,
+      });
     },
     handler: (d) => {
       const o = d;
